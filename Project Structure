@@ -1,0 +1,18 @@
+Library-Management-System/
+│
+├── client/          # React frontend
+│   ├── src/
+│   │   ├── components/   # Reusable components (Navbar, BookCard, etc.)
+│   │   ├── pages/        # Pages (Home, Books, Dashboard, Login, etc.)
+│   │   ├── api/          # Axios API calls
+│   │   └── App.js
+│   └── package.json
+│
+├── server/          # Node/Express backend
+│   ├── controllers/ # Business logic (books, auth, users)
+│   ├── models/      # MongoDB models (Book, User, Borrow)
+│   ├── routes/      # API routes
+│   ├── middlewares/ # Middleware (auth, error handling)
+│   └── server.js    # Entry point
+│
+└── README.md
